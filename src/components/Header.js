@@ -30,7 +30,7 @@ function Header() {
         Welcome to r/MK
       </div>
       <div className="image">
-        <img src="https://b.thumbs.redditmedia.com/MRKGXjJgXi8FJz39snnnTe-WbjNymvKqq44g9grEFsk.png" />
+        <img alt="logoMk" src="https://b.thumbs.redditmedia.com/MRKGXjJgXi8FJz39snnnTe-WbjNymvKqq44g9grEFsk.png" />
       </div>
     </StyledHeader>
   )
