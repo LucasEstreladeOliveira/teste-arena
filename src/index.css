@@ -1,8 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=Fira+Code);
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Fira Code';
+  background: rgb(41, 45, 62);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +11,24 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.arena-chat-widget--container, .chat-room--chat--header--wrapper, .chat-room--chat--header {
+  border-radius: 8px 8px 0px 0px !important;
+}
+
+.dcOeug {
+  border-radius: 8px;
+}
+
+.arena-liveblog--card .arena--conversion-card {
+  border-radius: 8px;
+}
+
+.hzndUy, .live-pbp--status-bar{
+  border-bottom: unset !important;
+}
+
+.live-pbp--status-bar--updating .live-pbp--status-bar--updating--wrapper {
+  background: #414863 !important
 }
